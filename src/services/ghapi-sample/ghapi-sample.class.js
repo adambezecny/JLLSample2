@@ -62,7 +62,7 @@ class Service {
       });
     }    
 
-    return apiResult;
+    return sortOrder === 'desc' ? apiResult.sort(Service.compareFn).reverse() : apiResult.sort(Service.compareFn);
   }
 
   async create (data, params) {
