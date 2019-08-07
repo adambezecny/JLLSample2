@@ -1,3 +1,8 @@
+## How to call API
+http://localhost:3030/ghapi-sample/microsoft
+http://localhost:3030/ghapi-sample/amazon
+http://localhost:3030/ghapi-sample/microsoft?sortOrder=asc
+
 # jll-feathersjs
 
 > 
